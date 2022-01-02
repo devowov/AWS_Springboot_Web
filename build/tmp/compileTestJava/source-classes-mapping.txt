@@ -2,3 +2,7 @@ com/hej/book/springboot/HelloControllerTest.java
  com.hej.book.springboot.HelloControllerTest
 com/hej/book/springboot/dto/HelloResponseDtoTest.java
  com.hej.book.springboot.dto.HelloResponseDtoTest
+com/hej/book/springboot/domain/posts/PostsRepositoryTest.java
+ com.hej.book.springboot.domain.posts.PostsRepositoryTest
+com/hej/book/springboot/web/PostsApiControllerTest.java
+ com.hej.book.springboot.web.PostsApiControllerTest
