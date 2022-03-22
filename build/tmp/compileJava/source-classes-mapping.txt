@@ -6,9 +6,8 @@ com/hej/book/springboot/domain/BaseTimeEntity.java
  com.hej.book.springboot.domain.BaseTimeEntity
 com/hej/book/springboot/domain/posts/PostsRepository.java
  com.hej.book.springboot.domain.posts.PostsRepository
-com/hej/book/springboot/config/auth/dto/OAuthAttributes.java
- com.hej.book.springboot.config.auth.dto.OAuthAttributes
- com.hej.book.springboot.config.auth.dto.OAuthAttributes$OAuthAttributesBuilder
+com/hej/book/springboot/service/posts/PostsService.java
+ com.hej.book.springboot.service.posts.PostsService
 com/hej/book/springboot/domain/user/Role.java
  com.hej.book.springboot.domain.user.Role
 com/hej/book/springboot/config/auth/SecurityConfig.java
@@ -27,8 +26,8 @@ com/hej/book/springboot/config/auth/dto/SessionUser.java
  com.hej.book.springboot.config.auth.dto.SessionUser
 com/hej/book/springboot/config/JpaConfig.java
  com.hej.book.springboot.config.JpaConfig
-com/hej/book/springboot/config/auth/CustomOAuth2UserService.java
- com.hej.book.springboot.config.auth.CustomOAuth2UserService
+com/hej/book/springboot/web/IndexController.java
+ com.hej.book.springboot.web.IndexController
 com/hej/book/springboot/config/auth/LoginUser.java
  com.hej.book.springboot.config.auth.LoginUser
 com/hej/book/springboot/web/dto/PostsSaveRequestDto.java
@@ -47,7 +46,8 @@ com/hej/book/springboot/config/auth/LoginUserArgumentResolver.java
 com/hej/book/springboot/domain/posts/Posts.java
  com.hej.book.springboot.domain.posts.Posts
  com.hej.book.springboot.domain.posts.Posts$PostsBuilder
-com/hej/book/springboot/service/posts/PostsService.java
- com.hej.book.springboot.service.posts.PostsService
-com/hej/book/springboot/web/IndexController.java
- com.hej.book.springboot.web.IndexController
+com/hej/book/springboot/config/auth/CustomOAuth2UserService.java
+ com.hej.book.springboot.config.auth.CustomOAuth2UserService
+com/hej/book/springboot/config/auth/dto/OAuthAttributes.java
+ com.hej.book.springboot.config.auth.dto.OAuthAttributes
+ com.hej.book.springboot.config.auth.dto.OAuthAttributes$OAuthAttributesBuilder
