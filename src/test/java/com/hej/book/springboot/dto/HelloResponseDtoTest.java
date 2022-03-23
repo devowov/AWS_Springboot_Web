@@ -1,7 +1,7 @@
 package com.hej.book.springboot.dto;
 
 import com.hej.book.springboot.web.dto.HelloResponseDto;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;
 // -> Junit이 아닌 assertj만의 장점이 있음
