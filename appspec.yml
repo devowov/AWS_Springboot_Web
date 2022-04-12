@@ -1,0 +1,7 @@
+# CodeDeploy 배포 설정
+version: 0.0 # CodeDeploy버전(프로젝트 버전이 아니라서 0.0외의 버전을 사용하면 오류 발생)
+os: linux
+file:
+  - source: / # CodeDeploy에서 전달해 준 파일 중 하단 경로로 이동시킬 대상을 지정(루크로 지정하였으니 전체 파일)
+    destination: /home/ec2-user/app/step2/zip/
+    overwrite: yes # 덮어쓰기 여부
